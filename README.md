@@ -3,19 +3,19 @@
 ![Python](https://img.shields.io/badge/Python-3568A3?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-315A7D?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-C2462B?style=for-the-badge&logo=pytorch&logoColor=white)
-![Speech AI](https://img.shields.io/badge/Speech_AI-287F83?style=for-the-badge)
-![Generative AI](https://img.shields.io/badge/Generative_AI-7057A3?style=for-the-badge)
+![Multimodal AI](https://img.shields.io/badge/Multimodal_AI-287F83?style=for-the-badge)
+![Full-Duplex Speech](https://img.shields.io/badge/Full--Duplex_Speech-7057A3?style=for-the-badge)
 ![Efficient Inference](https://img.shields.io/badge/Efficient_Inference-426B8C?style=for-the-badge)
 
-I'm an **independent AI researcher and engineer** with a background in mathematics and over a decade of experience in speech technology. My work spans speech recognition, speech synthesis, and audio-text alignment, with growing interests in image, video, and language models. I work across **model implementation, training, inference optimization, and product development**.
+I'm an **AI researcher and engineer working on multimodal generation, full-duplex speech interaction, and efficient inference**. With a background in computational mathematics and applied statistics, I have over a decade of experience taking AI systems from model design and training to optimized runtimes and production applications.
 
-I started with Kaldi and ASR runtimes, then moved into speech synthesis, implementing models including WaveNet, Tacotron, and WaveRNN. Along the way, I've worked on CPU/GPU optimization with CUDA, cuBLAS, and AVX, as well as state caching and reducing redundant computation in autoregressive inference. I enjoy understanding how a model works and figuring out how to make it run well on real hardware.
+My work spans **speech, image, and video generation**. I've led the development of end-to-end Speech LLMs with streaming dialogue, real-time interruption, multi-turn context, and zero-shot voice cloning. For full-duplex interaction, I worked on jointly modeling listening and speaking over time, allowing the model to learn when to speak, pause, and take a turn. My speech work also covers recognition, assessment, and synthesis, including large-scale TTS systems and implementations of WaveNet, Tacotron, WaveRNN, and VALL-E.
 
-My open-source work includes an [unofficial PyTorch implementation of VALL-E](https://github.com/lifeiteng/vall-e), [OmniSenseVoice](https://github.com/lifeiteng/OmniSenseVoice) for efficient speech recognition with word timestamps, and [OmniVAD-Kit](https://github.com/lifeiteng/OmniVAD-Kit) for voice activity and audio event detection across native apps and the web. I also built [Aligner-SUPERB](https://github.com/lifeiteng/Aligner-SUPERB) to evaluate forced alignment at word and utterance boundaries.
+In **image and video generation**, I've worked on virtual try-on and conditional image editing with Flux Kontext. My video work includes WanVideo and HunyuanVideo fine-tuning, DiT and flow matching, and conditioning methods for clothing consistency and controllable motion. These projects involved data preparation, model training, and inference optimization for practical content-generation workflows.
 
-I'm currently building **[EdgeSpeak](https://edgespeak.com)**, bringing on-device speech tools to desktop apps, the command line, and AI agents. I'm also exploring quantization and efficient inference for generative models, with attention to the trade-offs between quality, memory, and latency.
+I work across the **training and inference stack**: PyTorch, Megatron-Core, and FSDP for distributed training; CUDA, cuBLAS, AVX, vLLM, and quantization for efficient execution. I also build audio capabilities for AI agents, including understanding, generation, and context integration. I care about the details that make models useful in practice: output quality, memory use, latency, and reliable deployment.
 
-I share research notes, implementation details, and lessons from building AI systems on [X](https://x.com/FeitengLi). **If you're working on speech, efficient inference, or practical generative AI, I'd be happy to exchange ideas and explore collaborations.**
+I'm currently building **[EdgeSpeak](https://edgespeak.com)**, bringing on-device speech tools to desktop apps, the command line, and AI agents. I share research notes and engineering lessons on [X](https://x.com/FeitengLi) and [my blog](https://zhuanlan.zhihu.com/codingmath). **I'm happy to connect with people working on multimodal generation, real-time voice interaction, and efficient AI systems.**
 
 ### Selected projects
 
